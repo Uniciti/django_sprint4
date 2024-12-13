@@ -2,7 +2,6 @@ from django.views.generic import TemplateView
 from django.shortcuts import render
 
 
-# Create your views here.
 class About(TemplateView):
     template_name = 'pages/about.html'
 
