@@ -16,7 +16,6 @@ from datetime import datetime, timezone
 PER_PAGE = 10
 
 
-# Create your views here.
 class RegisterView(CreateView):
     template_name = 'registration/registration_form.html'
     form_class = UserCreationForm
